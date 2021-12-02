@@ -1,5 +1,8 @@
 # Multiplex-matrix-function-centralities
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5749309.svg)](https://doi.org/10.5281/zenodo.5749309)
+
+
 This repository contains Matlab codes reproducing the results and grahpics from the
 
 **Paper:** [1] Bergermann, K. & Stoll, M. (2021) Fast computation of matrix function-based centrality measures for layer-coupled multiplex networks. https://arxiv.org/abs/2104.14368v3
