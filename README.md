@@ -5,7 +5,7 @@
 
 This repository contains Matlab codes reproducing the results and grahpics from the
 
-**Paper:** [1] Bergermann, K. & Stoll, M. (2021) Fast computation of matrix function-based centrality measures for layer-coupled multiplex networks. https://arxiv.org/abs/2104.14368v3
+**Paper:** [1] Bergermann, K. & Stoll, M. (2022) Fast computation of matrix function-based centrality measures for layer-coupled multiplex networks. Physical Review E, 105(3), 034305. https://doi.org/10.1103/PhysRevE.105.034305
 
 **Abstract:** Centrality measures identify and rank the most influential entities of complex networks. In this paper, we generalize matrix function-based centrality measures, which have been studied extensively for single-layer and temporal networks in recent years to layer-coupled multiplex networks. The layers of these networks can reflect different relationships and interactions between entities or changing interactions over time. We use the supra-adjacency matrix as network representation, which has already been used to generalize eigenvector centrality to temporal and multiplex networks. With a suitable choice of edge weights, the definition of single-layer matrix function-based centrality measures in terms of walks on networks carries over naturally to the multilayer case. In contrast to other walk-based centralities, matrix function-based centralities are parameterized measures, which have been shown to interpolate between (local) degree and (global) eigenvector centrality in the single-layer case. As the explicit evaluation of the involved matrix function expressions becomes infeasible for medium to large-scale networks, we present highly efficient approximation techniques from numerical linear algebra, which rely on Krylov subspace methods, Gauss quadrature, and stochastic trace estimation. We present extensive numerical studies on synthetic and real-world multiplex transportation, communication, and collaboration networks. The comparison with established multilayer centrality measures shows that our framework produces meaningful rankings of nodes, layers, and node-layer pairs. Furthermore, our experiments corroborate the linear computational complexity of the employed numerical methods in terms of the network size that is theoretically indicated under the assumption of sparsity in the supra-adjacency matrix. This excellent scalability allows the efficient treatment of large-scale networks with the number of node-layer pairs of order 10^7 or higher.
 
@@ -81,12 +81,12 @@ This repository contains:
  
  **References:**
  
- - [1] Bergermann, K. & Stoll, M. (2021) Fast computation of matrix function-based centrality measures for layer-coupled multiplex networks. https://arxiv.org/abs/2104.14368v3
- - [2] Cardillo, A., Gómez-Gardenes, J., Zanin, M., Romance, M., Papo, D., Del Pozo, F. & Boccaletti, S. (2013) Emergence of network features from multiplexity. Sci. Rep., 3(1), 1-6. https://doi.org/10.1038/srep01344
+ - [1] Bergermann, K. & Stoll, M. (2022) Fast computation of matrix function-based centrality measures for layer-coupled multiplex networks. Physical Review E, 105(3), 034305. https://doi.org/10.1103/PhysRevE.105.034305
+ - [2] Cardillo, A., Gómez-Gardenes, J., Zanin, M., Romance, M., Papo, D., Del Pozo, F. & Boccaletti, S. (2013) Emergence of network features from multiplexity. Scientific Reports, 3(1), 1-6. https://doi.org/10.1038/srep01344
  - [3] Taylor, D. (2021) Code Release: Supracentrality. Available at https://github.com/taylordr/Supracentrality
  - [4] Güttel, S. (2008) funm_kryl toolbox for Matlab. Available at http://guettel.com/funm_kryl
  - [5] Paranjape, A., Benson, A. R. & Leskovec, J. (2017) Motifs in temporal networks. In Proceedings of the Tenth ACM International Conference on Web Search and Data Mining, pages 601–610. https://doi.org/10.1145/3018661.3018731
- - [6] Fenu, C. & Higham, D.J. (2017) Block matrix formulations for evolving networks, SIAM Journal on Matrix Analysis and Applications, vol. 38, no. 2, pp. 343-360. https://doi.org/10.1137/16M1076988
+ - [6] Fenu, C. & Higham, D.J. (2017) Block matrix formulations for evolving networks. SIAM Journal on Matrix Analysis and Applications, vol. 38, no. 2, pp. 343-360. https://doi.org/10.1137/16M1076988
  - [7] Golub, G. H. & Van Loan, C. F. (2013) Matrix Computations, volume 3. JHU press, USA.
  
 **Authors:**
